@@ -18,6 +18,23 @@ This library contains a Tensorflow implementation of Learning Non-myopic Power A
 * [data](https://github.com/ArCho48/UWMMSE-MIMO/tree/master/data): Should contain your dataset in folder {dataset ID}. 
 * [models](https://github.com/ArCho48/UWMMSE-MIMO/tree/master/models): Stores trained models in a folder with same name as {datset ID}.
 * [results](https://github.com/ArCho48/UWMMSE-MIMO/tree/master/results): Stores results in a folder with same name as {datset ID}.
+* # DDPG
+main.py
+model.py
+buffer.py
+utils.py
+common_definitions.py
+
+# Architectures
+gcnn.py
+gcn.py
+uwmmse.py
+wmmse.py
+
+# Dataset
+mobility.py
+contact.py
+datagen.py
 
 ## Usage
 
