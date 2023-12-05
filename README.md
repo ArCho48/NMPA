@@ -29,7 +29,7 @@ For questions and comments, feel free to contact [Arindam Chowdhury](mailto:arin
 
 ## Citation
 ```
-[1] Chowdhury A, Paternain S, Verma G, Swami A, Segarra S. Deep Graph Unfolding for Beamforming in MU-MIMO Interference Networks. 
+[1] Chowdhury A, Paternain S, Verma G, Swami A, Segarra S. Learning Non-myopic Power Allocation in Constrained Scenarios. 
 arXiv preprint arXiv:.
 ```
 
