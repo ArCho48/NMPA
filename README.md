@@ -13,31 +13,14 @@ This library contains a Tensorflow implementation of Learning Non-myopic Power A
 * **matplotlib**
 
 ## Structure
-* [main](https://github.com/ArCho48/UWMMSE-MIMO/blob/master/train.py): Main code for running the experiments in the paper. Run as python3 train.py 
-* [model](https://github.com/ArCho48/UWMMSE-MIMO/blob/master/model.py): Defines the UWMMSE model.
-* [data](https://github.com/ArCho48/UWMMSE-MIMO/tree/master/data): Should contain your dataset in folder {dataset ID}. 
-* [models](https://github.com/ArCho48/UWMMSE-MIMO/tree/master/models): Stores trained models in a folder with same name as {datset ID}.
+* [train](https://github.com/ArCho48/UWMMSE-MIMO/blob/master/train.py): Code for training the NMPA model. Run as python3 train.py  --set {expID} with default parameters.
+* [model](https://github.com/ArCho48/UWMMSE-MIMO/blob/master/model.py): Defines the NMPA model.
+* [run](https://github.com/ArCho48/UWMMSE-MIMO/blob/master/run.py): Code for running the trained NMPA model. Run as python3 run.py  --set {expID} with default parameters.
+* [train_uwmmmse](https://github.com/ArCho48/UWMMSE-MIMO/blob/master/train_uwmmse.py): Code for training the lower-level UWMMSE model. Run as python3 train_uwmmse.py with default parameters.
+* [data](https://github.com/ArCho48/UWMMSE-MIMO/tree/master/data): Should contain your dataset in folder {expID}.
+* [models](https://github.com/ArCho48/UWMMSE-MIMO/tree/master/models): Stores pretrained models in a folder with same name as {expID}.
+* [checkpoints](https://github.com/ArCho48/UWMMSE-MIMO/tree/master/checkpoints): Stores trained models in a folder with same name as DDPG/{expID}.
 * [results](https://github.com/ArCho48/UWMMSE-MIMO/tree/master/results): Stores results in a folder with same name as {datset ID}.
-* # DDPG
-main.py
-model.py
-buffer.py
-utils.py
-common_definitions.py
-
-# Architectures
-gcnn.py
-gcn.py
-uwmmse.py
-wmmse.py
-
-# Dataset
-mobility.py
-contact.py
-datagen.py
-
-## Usage
-
 
 Please cite [[1](#citation)] in your work when using this library in your experiments.
 
