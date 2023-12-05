@@ -8,7 +8,6 @@ This library contains a Tensorflow implementation of Learning Non-myopic Power A
 
 * **python>=3.6**
 * **tensorflow>=2.0**: https://tensorflow.org
-* **tensorflow_addons**
 * **numpy**
 * **matplotlib**
 
